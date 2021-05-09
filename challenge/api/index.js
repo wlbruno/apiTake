@@ -8,9 +8,7 @@ const server = express();
 
 server.listen(3000);
 
-server.get('/', (req, res) => {
-    return res.send({ message: "willian" })
-})
+
 
 server.get('/take/one', async (req, res) => {
     try {
